@@ -4,7 +4,7 @@
  *
  * @package Nikkon
  */
-define( 'NIKKON_THEME_VERSION' , '1.2.01' );
+define( 'NIKKON_THEME_VERSION' , '1.2.02' );
 
 // Get help / Premium Page
 require get_template_directory() . '/upgrade/upgrade.php';

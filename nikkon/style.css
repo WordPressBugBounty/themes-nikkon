@@ -4,8 +4,8 @@ Theme URI: https://kairaweb.com/wordpress-theme/nikkon/
 Author: Kaira
 Author URI: https://kairaweb.com/
 Description: Nikkon is a creative multipurpose WordPress WooCommerce theme designed with a minimal, clean design which is fully responsive and fast loading. Nikkon offers multiple header layouts, multiple footer layouts and multiple page template layouts so you're able to build any type of website you need from a simple blog to a full eCommerce online store. Integrating with top Page Builders, Nikkon will make it fun building your website without and coding knowledge. Download it now... Hope you like it !! Demo - https://demo.kairaweb.com/#nikkon
-Version: 1.2.01
-Tested up to: 6.4
+Version: 1.2.02
+Tested up to: 6.7
 Requires PHP: 7.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -517,7 +517,8 @@ input[type="button"]:active,
 input[type="reset"]:active,
 input[type="submit"]:active {
   border-color: #aaa #bbb #bbb;
-  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5),
+  box-shadow:
+    inset 0 -1px 0 rgba(255, 255, 255, 0.5),
     inset 0 2px 5px rgba(0, 0, 0, 0.15);
 }
 
@@ -2933,12 +2934,15 @@ body.page-template-template-gutenberg {
     float: none;
   }
   .site-top-bar .social-icon:first-child {
-    box-shadow: -1px 0 0 rgba(0, 0, 0, 0.08) inset,
+    box-shadow:
+      -1px 0 0 rgba(0, 0, 0, 0.08) inset,
       1px 0 0 rgba(0, 0, 0, 0.08) inset;
   }
   .site-header-layout-one .site-topbar-right-no,
   .site-header-layout-three .site-topbar-right-no {
-    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.08) inset, 1px 0 0 rgba(0, 0, 0, 0.08);
+    box-shadow:
+      1px 0 0 rgba(0, 0, 0, 0.08) inset,
+      1px 0 0 rgba(0, 0, 0, 0.08);
   }
   .site-header-layout-two a.header-cart-contents {
     box-shadow: 1px 0 0 rgba(0, 0, 0, 0.08);
